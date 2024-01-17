@@ -1,0 +1,9 @@
+#input
+chieu_dai = float(input("Nhập chiều dài của hình chữ nhật: "))
+chieu_rong = float(input("Nhập chiều rộng của hình chữ nhật: "))
+
+#process
+chu_vi = 2 * (chieu_dai + chieu_rong)
+
+#output
+print(f"Chu vi của hình chữ nhật là: {chu_vi}")
