@@ -1,7 +1,9 @@
 #input
-chieu_dai = float(input("Nhập chiều dài của hình chữ nhật: "))
-chieu_rong = float(input("Nhập chiều rộng của hình chữ nhật: "))
+chieu_dai = (input("Nhập chiều dài của hình chữ nhật: "))
+chieu_rong = (input("Nhập chiều rộng của hình chữ nhật: "))
 
+chieu_dai = float(chieu_dai)
+chieu_rong = float(chieu_rong)
 #process
 chu_vi = 2 * (chieu_dai + chieu_rong)
 

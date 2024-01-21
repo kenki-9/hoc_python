@@ -1,0 +1,11 @@
+import math
+a = float (input("nhập độ dài cạnh a: "))
+b = float (input("nhap độ dài cạnh b: "))
+c = float (input("nhập đọ dài cạnh c: "))
+
+s = (a+b+c)/2
+print("ta có chu vi là: ", s)
+
+DT=math.sqrt(s*(s-a)*(s-b)*(s-c))
+
+print("ta có diện tích là : ", DT)
