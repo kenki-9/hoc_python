@@ -12,3 +12,5 @@ print("Họ và tên:", ho_ten)
 print("Tuổi:", tuoi)
 print("Giới tính:", gioi_tinh)
 print("Địa chỉ:", dia_chi)
+
+print("toi", "trn", "la")
